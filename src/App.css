@@ -1,0 +1,60 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: auto;
+}
+
+.live-video-frame {
+  width: 640px;
+  height: 340px;
+}
+
+.tv-screen {
+  margin: auto;
+  position: relative;
+  margin-top: 2% !important;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+.App-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff !important;
+}
+
+#videolink {
+  position: relative;
+}
+
+.video-logo {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 35px;
+}
+
+.blue-bk {
+  position: relative;
+  padding-left: 8px;
+  top: -33px;
+  padding-right: 15px;
+  background: white;
+  font-weight: bold;
+  font-family: Arial;
+  float: right;
+}
+
+.move-container {
+  background: white;
+}
+
+.white-bk {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 1.2em;
+  background-color: white;
+  top: 9px;
+  position: relative;
+}

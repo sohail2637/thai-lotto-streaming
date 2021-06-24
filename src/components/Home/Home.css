@@ -1,0 +1,65 @@
+.home-container {
+  width: 100%;
+  background-color: #000000;
+  background-image: url("../../assert/home.gif");
+  margin: auto;
+}
+
+.heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+.home-section {
+  width: 90%;
+  margin: auto;
+  /* border-bottom: 2px solid #f9b707; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-heading > div img {
+  width: 89px;
+}
+.title-container {
+  color: #fff;
+  /* text-shadow: 1px 1px #f9b707; */
+  transition: title 2s;
+  transform: scaleX(0deg);
+}
+.thai-lotto{
+  font-size: 50px;
+   font-weight: 900;
+}
+.notify {
+  /* width: 30%; */
+  color: #fff !important;
+  font-size: 2rem;
+}
+.notify > .notify-icon {
+  /* float: right; */
+  margin: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .home-section {
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: none;
+  }
+  .thai-lotto {
+  font-size: 30px;
+  margin-top:16px;
+  margin-left: 5px;
+  }
+  .notify{
+    display: none;
+  }
+  .home-heading {
+    margin-top: 10px;
+  }
+.home-heading > div img {
+width: 75px;
+}
+}

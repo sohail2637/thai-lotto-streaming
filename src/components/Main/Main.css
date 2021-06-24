@@ -1,0 +1,33 @@
+.mobileviewcontainer {
+  width: 100%;
+  height: 77vh;
+  background-color: #000;
+  display: none;
+}
+.playstoreimg {
+  width: 90px;
+  /* height: 150px; */
+}
+.resaultesimg {
+  width: 90px;
+  /* height: 150px; */
+}
+@media screen and (max-width: 480px) {
+  .desktopview {
+    display: none;
+  }
+  .mobileviewcontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .marque-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-family: "Abril Fatface", cursive;
+    position: relative;
+    /* top: 29px; */
+  }
+}

@@ -1,0 +1,99 @@
+.Notifi-container {
+  width: 390px;
+  height: 150px;
+  margin: auto;
+  background-color: #51b29b;
+  border-radius: 30px;
+}
+.Notifi-inner-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.imgcontainer {
+    width: 35%;
+  height: 130px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imgcontainer > img {
+  width: 140px;
+}
+.containtent-container {
+  align-items: flex-start;
+  width: 65%;
+  text-align: left;
+
+}
+.booking-btn{
+  width: 100%;
+  margin: auto;
+  height: 80px;
+}
+.booking-btn>a{
+  font-size: 18px;
+  font-weight: 700;;
+  line-height: 45px;
+  padding:0px 15px;
+  
+  border-radius: 15px;
+  background: #51b29b;
+  color: #fff;
+
+}
+.booking-btn>a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.timeline-title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+.timeline-value {
+  font-size: 18px;
+  color: #fff;
+  justify-content: space-between;
+  /* font-family: 'ROBOTO'; */
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 480px) {
+  .Notifi-container {
+    margin-top: 10%;
+    width: 100%;
+    height: 130px;
+  }
+  .imgcontainer {
+    height: 100px;
+
+    width: 25%;
+  }
+  .imgcontainer > img {
+    width: 110px;
+  }
+  .containtent-container {
+      justify-content: flex-end;
+  width: 65%;  
+}
+.timeline-value {
+    font-size: 16px;
+}
+.table-timeline{
+    width:300px;
+    margin: auto;
+    margin-top: 5%;
+}
+.title{
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: #000;
+}
+.tablebody{
+     justify-content: space-evenly;
+    color: #000;
+   
+}
+
+}

@@ -1,0 +1,34 @@
+.nav-container{
+    width: 100%;
+    height: 74px;
+    /* margin-top: 30px; */
+}
+ nav {
+    background-color: #1d1d1d !important;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav .nav-wrapper {
+    width: 100% !important;
+}
+.centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul a {
+    font-size: 2rem;
+    padding: 0 44px;
+
+}
+
+nav ul a:hover {
+    transform: scale(1.05);
+}

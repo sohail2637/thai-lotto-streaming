@@ -1,0 +1,76 @@
+.drawDetails {
+  width: 100%;
+  min-height: 80vh;
+  justify-content: space-evenly;
+}
+
+.draw-dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.calendar {
+  font-size: 2.5rem;
+  background-color: none;
+  cursor: pointer;
+}
+.calendarView {
+  display: block;
+  position: absolute;
+  top: 126px;
+  right: 68px;
+}
+.changeView {
+  display: none;
+}
+.datepiker {
+  background-color: #ebe9ea;
+  padding: 10px;
+  width: 305px;
+  border-radius: 25px;
+}
+.draw-table {
+  width: 60%;
+  margin: 30px auto;
+}
+.draw-table > table {
+  table-layout: fixed;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+}
+.table-heading {
+  font-weight: bold;
+}
+.table-heading > td {
+  text-align: center !important;
+}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #85a197;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .tablehead {
+    font-size: 14px !important;
+  }
+  .tablebody {
+    font-size: 12px !important;
+  }
+  .drawDetails {
+    justify-content: flex-start;
+    margin-top: 10%;
+  }
+  .draw-table {
+    width: 100%;
+  }
+  .datepiker {
+    background-color: #fff;
+  }
+  .datepiker:hover {
+    border: 2px solid rgb(218, 76, 100);
+  }
+}

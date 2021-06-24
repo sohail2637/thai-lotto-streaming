@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  /* padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top); */
+  padding: 0;
+  /* height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to right,
+    rgba(218, 207, 207, 0),
+    rgb(218, 204, 204)
+  ); */
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  /* font-family: 'Benne', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Mate SC", serif;
+  font-family: "Merriweather", serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+.video-stream .html5-main-video {
+  width: 70%;
+  height: 60vh;
+}
+input {
+  /* color:#fff  !important; */
+}
+.MuiInputBase-input,
+.MuiInput-input,
+.MuiInputBase-inputAdornedEnd {
+  /* timer iput feild ..... */
+  /* width: 320px !important; */
+  font-size: 20px !important;
+  /* color:#fff !important; */
+  border-bottom: none !important;
+}
+.MuiFormLabel-root,
+.MuiInputLabel-root,
+.MuiInputLabel-formControl,
+.MuiInputLabel-animated,
+.MuiInputLabel-shrink,
+.MuiFormLabel-filled {
+  /* color:#fff !important; */
+  font-size: 14px !important;
+}
+.MuiSvgIcon-root {
+  /* timer icon.... */
+  /* color:#fff */
+}
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+
+/* .outlined-helperText{
+  border:none !important;
+} */
+
+.PrivateNotchedOutline-root-4,
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.section {
+  padding-top: 0% !important;
+  padding-bottom: 0% !important;
+}
+/* .label + .MuiInput-formControl {
+} */
+.MuiButton-root:hover{
+  background-color: #fff !important;
+  color:#000 !important;
+}

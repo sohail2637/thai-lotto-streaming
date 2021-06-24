@@ -1,0 +1,14 @@
+
+  .container-login {
+    height: 70vh;
+    box-sizing: border-box;
+  }
+  .lighten-4{
+    border: 5px solid #f9b707 !important;
+    width: 76vw !important;
+    margin-top: 12px !important;
+  }
+  .indigo {
+    background-color: #f9b707 !important;
+    z-index: 0 !important;
+  }
